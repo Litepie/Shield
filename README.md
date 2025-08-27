@@ -40,6 +40,10 @@ A production-ready Laravel package for role and permission-based access control,
 
 ## 🚀 Installation
 
+**Requirements:**
+- PHP 8.2 or higher
+- Laravel 10.x, 11.x, or 12.x
+
 ```bash
 composer require litepie/shield
 ```

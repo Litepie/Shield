@@ -1,5 +1,12 @@
 <?php
 
+/*
+ * Litepie Shield Configuration
+ * 
+ * Compatible with Laravel 10.x, 11.x, and 12.x
+ * Requires PHP 8.2 or higher
+ */
+
 return [
 
     'models' => [

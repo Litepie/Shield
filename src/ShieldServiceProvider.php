@@ -70,7 +70,7 @@ class ShieldServiceProvider extends ServiceProvider
         ], 'shield-config');
 
         $this->publishes([
-            __DIR__.'/../database/migrations/create_shield_tables.php.stub' => $this->getMigrationFileName('create_shield_tables.php'),
+            __DIR__.'/../database/migrations/create_shield_tables.php' => $this->getMigrationFileName('create_shield_tables.php'),
         ], 'shield-migrations');
     }
 
